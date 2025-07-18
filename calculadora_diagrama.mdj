@@ -1,0 +1,124 @@
+{
+  "_type": "Project",
+  "name": "CalculadoraPOO",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "name": "Modelo",
+      "ownedElements": [
+        {
+          "_type": "UMLClass",
+          "name": "Calculadora",
+          "visibility": "public",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "name": "numero1",
+              "visibility": "private",
+              "type": "double"
+            },
+            {
+              "_type": "UMLAttribute",
+              "name": "numero2",
+              "visibility": "private",
+              "type": "double"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "name": "Calculadora",
+              "parameters": [
+                {
+                  "_type": "UMLParameter",
+                  "name": "numero1",
+                  "type": "double",
+                  "direction": "in"
+                },
+                {
+                  "_type": "UMLParameter",
+                  "name": "numero2",
+                  "type": "double",
+                  "direction": "in"
+                }
+              ]
+            },
+            {
+              "_type": "UMLOperation",
+              "name": "getNumero1",
+              "type": "double"
+            },
+            {
+              "_type": "UMLOperation",
+              "name": "setNumero1",
+              "parameters": [
+                {
+                  "_type": "UMLParameter",
+                  "name": "numero1",
+                  "type": "double",
+                  "direction": "in"
+                }
+              ]
+            },
+            {
+              "_type": "UMLOperation",
+              "name": "getNumero2",
+              "type": "double"
+            },
+            {
+              "_type": "UMLOperation",
+              "name": "setNumero2",
+              "parameters": [
+                {
+                  "_type": "UMLParameter",
+                  "name": "numero2",
+                  "type": "double",
+                  "direction": "in"
+                }
+              ]
+            },
+            {
+              "_type": "UMLOperation",
+              "name": "sumar",
+              "type": "double"
+            },
+            {
+              "_type": "UMLOperation",
+              "name": "restar",
+              "type": "double"
+            },
+            {
+              "_type": "UMLOperation",
+              "name": "multiplicar",
+              "type": "double"
+            },
+            {
+              "_type": "UMLOperation",
+              "name": "dividir",
+              "type": "double"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "name": "Principal",
+          "visibility": "public",
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "name": "main",
+              "parameters": [
+                {
+                  "_type": "UMLParameter",
+                  "name": "args",
+                  "type": "String[]",
+                  "direction": "in"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
